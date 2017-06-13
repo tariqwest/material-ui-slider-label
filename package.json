@@ -1,8 +1,8 @@
 {
-  "name": "material-ui-slider-plus",
-  "author": "Material-UI Team",
+  "name": "materialui-slider-plus",
+  "author": "Bandwith Team",
   "version": "0.18.1",
-  "description": "React Components that Implement Google's Material Design.",
+  "description": "Adds slider info bubble to materialui slider.",
   "main": "./index.js",
   "module": "./index.es.js",
   "jsnext:main": "./index.es.js",
@@ -14,17 +14,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/bandwith/materialui-slider-plus.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callemall/material-ui/issues"
+    "url": "https://github.com/bandwith/materialui-slider-plus/issues"
   },
-  "homepage": "http://material-ui.com/",
+  "homepage": "https://github.com/bandwith/materialui-slider-plus",
   "peerDependencies": {
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-tap-event-plugin": "^2.0.1"
+    "react-tap-event-plugin": "^2.0.1",
+    "material-ui": "^0.18.3",
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
