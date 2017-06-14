@@ -768,17 +768,7 @@ var Slider = function (_Component) {
                 show: (hovered || focused) && !active,
                 color: styles.rippleColor.fill
               }),
-              _react2.default.createElement('div', { style: {
-                  width: '30px',
-                  height: '30px',
-                  borderRadius: '50% 50% 50% 0',
-                  background: '#000',
-                  position: 'relative',
-                  transform: 'rotate(-45deg)',
-                  top: '-40px',
-                  left: '-8px',
-                  textAlign: 'center',
-                } }, _react2.default.createElement('div', { style: { color: 'white', transform: 'rotate(45deg)' } }, Math.floor(this.state.value * 100))),
+              label
             )
           )
         ),
@@ -794,7 +784,6 @@ var Slider = function (_Component) {
       );
     }
   }]);
-  console.log(label);
   return Slider;
 }(_react.Component);
 
@@ -887,7 +876,7 @@ process.env.NODE_ENV !== "production" ? Slider.propTypes = {
    */
   value: valueInRangePropType,
   /**
-   * The label of the slider.
+   * The label of the slider including any internal styling or children.
    */
   label: _propTypes2.default.element,
 
