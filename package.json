@@ -1,5 +1,5 @@
 {
-  "name": "materialui-slider-plus",
+  "name": "material-ui-slider-plus",
   "author": "Bandwith Team",
   "version": "0.18.1",
   "description": "Adds slider info bubble to materialui slider.",
@@ -14,20 +14,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bandwith/materialui-slider-plus.git"
+    "url": "https://github.com/bandwith/material-ui-slider-plus.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bandwith/materialui-slider-plus/issues"
+    "url": "https://github.com/bandwith/material-ui-slider-plus/issues"
   },
-  "homepage": "https://github.com/bandwith/materialui-slider-plus",
+  "homepage": "https://github.com/bandwith/material-ui-slider-plus",
   "peerDependencies": {
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-tap-event-plugin": "^2.0.1",
-    "material-ui": "^0.18.3"
+    "react-tap-event-plugin": "^2.0.1"
   },
   "dependencies": {
+    "material-ui": "^0.18.3",
     "babel-runtime": "^6.23.0",
     "inline-style-prefixer": "^3.0.2",
     "keycode": "^2.1.8",
