@@ -694,6 +694,7 @@ var Slider = function (_Component) {
       var _this3 = this;
 
       var _props4 = this.props,
+          label = _props4.label,
           axis = _props4.axis,
           disabled = _props4.disabled,
           disableFocusRipple = _props4.disableFocusRipple,
@@ -709,7 +710,7 @@ var Slider = function (_Component) {
           sliderStyle = _props4.sliderStyle,
           step = _props4.step,
           style = _props4.style,
-          other = (0, _objectWithoutProperties3.default)(_props4, ['axis', 'disabled', 'disableFocusRipple', 'max', 'min', 'name', 'onBlur', 'onChange', 'onDragStart', 'onDragStop', 'onFocus', 'required', 'sliderStyle', 'step', 'style']);
+          other = (0, _objectWithoutProperties3.default)(_props4, ['axis', 'disabled', 'disableFocusRipple', 'max', 'min', 'name', 'onBlur', 'onChange', 'onDragStart', 'onDragStop', 'onFocus', 'required', 'sliderStyle', 'step', 'style', 'label']);
       var _state = this.state,
           active = _state.active,
           focused = _state.focused,
@@ -793,6 +794,7 @@ var Slider = function (_Component) {
       );
     }
   }]);
+  console.log(label);
   return Slider;
 }(_react.Component);
 
@@ -883,6 +885,11 @@ process.env.NODE_ENV !== "production" ? Slider.propTypes = {
   /**
    * The value of the slider.
    */
-  value: valueInRangePropType
+  value: valueInRangePropType,
+  /**
+   * The label of the slider.
+   */
+  label: _propTypes2.default.element,
+
 } : void 0;
 exports.default = Slider;
