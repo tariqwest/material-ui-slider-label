@@ -2,16 +2,21 @@
 
 # Material UI Slider + Value Label
 
-Material-UI is a set of [React](http://facebook.github.io/react/) components that implement
+[Material UI](http://www.material-ui.com/) is a set of [React](http://facebook.github.io/react/) components that implement
 [Google's Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 specification.
 
-Check out the Material UI [documentation site](http://www.material-ui.com/) for details.
+Among these really great components is a [slider](http://www.material-ui.com/#/components/slider), but it is missing the [value label / info bubble](https://material.io/guidelines/components/sliders.html#sliders-discrete-slider) the Google design guideline calls for. 
 
-Among those really great components is a [slider](http://www.material-ui.com/#/components/slider), but it is missing the [value label / info bubble](https://material.io/guidelines/components/sliders.html#sliders-discrete-slider) the google design guideline calls for. This component augments the Material UI Slider component with a value label / info bubble styled to your specifications.
+This component augments the Material UI Slider component with a value label / info bubble styled to your specifications.
 
 ![enter image description here](https://cloud.githubusercontent.com/assets/61205/18767638/07c9da50-80e6-11e6-92d6-eb2828bbd8ed.gif)
 
+
+## Installation
+```
+npm install https://github.com/tariqwest/material-ui-slider-label.git
+```
 
 ## Usage
 
