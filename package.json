@@ -1,8 +1,8 @@
 {
-  "name": "material-ui-slider-plus",
-  "author": "Bandwith Team",
-  "version": "0.18.1",
-  "description": "Adds slider info bubble to materialui slider.",
+  "name": "material-ui-slider-label",
+  "author": "Tariq West",
+  "version": "0.0.1",
+  "description": "Adds slider value label / info bubble to Material UI Slider.",
   "main": "./index.js",
   "module": "./index.es.js",
   "jsnext:main": "./index.es.js",
@@ -14,13 +14,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bandwith/material-ui-slider-plus.git"
+    "url": "https://github.com/tariqwest/material-ui-slider-label.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bandwith/material-ui-slider-plus/issues"
+    "url": "https://github.com/tariqwest/material-ui-slider-label/issues"
   },
-  "homepage": "https://github.com/bandwith/material-ui-slider-plus",
+  "homepage": "https://github.com/tariqwest/material-ui-slider-label",
   "peerDependencies": {
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
