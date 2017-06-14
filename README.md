@@ -84,4 +84,4 @@ export default SearchRadiusInput;
 
 ## License
 This project is licensed under the terms of the
-[MIT license](https://github.com/callemall/material-ui/blob/master/LICENSE)
+[MIT license](https://github.com/tariqwest/material-ui-slider-label/blob/master/LICENSE)
